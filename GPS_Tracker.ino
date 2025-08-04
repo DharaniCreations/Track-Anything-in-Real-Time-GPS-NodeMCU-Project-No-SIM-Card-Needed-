@@ -13,10 +13,10 @@ SoftwareSerial neo6m(RXPin, TXPin);
 
 TinyGPSPlus gps;
              
-const char *ssid = "7";
-const char *password = "freewifi";
+const char *ssid = "wifi name";
+const char *password = "password";
 
-String GMAP_API_KEY = "AIzaSyAgKoanRR_WG5MViuDdCTPcgAo9trUoni0";
+String GMAP_API_KEY = "APIKey";
 
 WiFiServer server(80);
 
